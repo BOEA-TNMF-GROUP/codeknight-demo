@@ -9,7 +9,7 @@ Open the [pull requests](../../pulls?q=is%3Apr). Each one contains a deliberate 
 | PR | Planted mistake | Caught by |
 |---|---|---|
 | Customer search endpoint | SQL built by string concatenation (injection) | Deterministic rule check |
-| Stripe webhook handler | Hard-coded fake API key | Deterministic secret scan |
+| Payment webhook handler | Hard-coded fake API key | Deterministic secret scan |
 | Archive old invoices | Migration that drops a column with data in it | Deterministic migration check |
 | Overdue invoice total | Off-by-one date comparison | AI review (and `/codeknight autofix`) |
 
