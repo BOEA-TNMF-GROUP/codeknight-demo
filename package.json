@@ -1,0 +1,11 @@
+{
+  "name": "codeknight-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny fake invoicing service used to demonstrate CodeKnight pull request reviews.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
